@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_screen"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Main">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pause"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <!--
+        layout_letters - це місце, де відображаються букви, з яких ми вибираємо
+        -->
+    <LinearLayout
+        android:id="@+id/layout_letters"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"></LinearLayout>
+    <!--
+           layout_answer - це місце, де відображаються букви, які ми вже вибрали
+           тут повинна згенеруватись певна к-сть кнопок, типу скільки букв у слові, якби прочерки
+           а потім заповнюватись тими буквами які ми вибрали
+           -->
+    <LinearLayout
+        android:id="@+id/layout_answer"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/layout_letters"
+        android:layout_alignStart="@+id/layout_letters"></LinearLayout>
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Андрій/AndroidStudioProjects/GuessThatMan/app/src/main/res/layout/activity_main.xml -->
