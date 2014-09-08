@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Main">
+
+
+
+
+    <!--
+        layout_letters - це місце, де відображаються букви, з яких ми вибираємо
+        -->
+    <LinearLayout
+        android:id="@+id/layout_letters"
+        android:orientation="horizontal"
+        android:layout_width="500dip"
+        android:layout_height="200dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></LinearLayout>
+    <!--
+           layout_answer - це місце, де відображаються букви, які ми вже вибрали
+           тут повинна згенеруватись певна к-сть кнопок, типу скільки букв у слові, якби прочерки
+           а потім заповнюватись тими буквами які ми вибрали
+           -->
+    <LinearLayout
+        android:id="@+id/layout_answer"
+        android:orientation="horizontal"
+        android:layout_width="500dip"
+        android:layout_height="200dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></LinearLayout>
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Андрій/Desktop/TryGit/TryGit/app/src/main/res/layout-land/game.xml -->

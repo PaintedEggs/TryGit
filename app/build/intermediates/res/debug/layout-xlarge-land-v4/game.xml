@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Main">
+
+
+
+
+    <!--
+        layout_letters - це місце, де відображаються букви, з яких ми вибираємо
+        -->
+    <LinearLayout
+        android:id="@+id/layout_letters"
+        android:orientation="horizontal"
+        android:layout_width="600dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"></LinearLayout>
+    <!--
+           layout_answer - це місце, де відображаються букви, які ми вже вибрали
+           тут повинна згенеруватись певна к-сть кнопок, типу скільки букв у слові, якби прочерки
+           а потім заповнюватись тими буквами які ми вибрали
+           -->
+    <LinearLayout
+        android:id="@+id/layout_answer"
+        android:orientation="horizontal"
+        android:layout_width="600dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <FrameLayout
+        android:id="@+id/image_frame"
+        android:background="@drawable/frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@+id/layout_answer"
+        android:layout_toRightOf="@+id/layout_answer"
+        android:layout_toEndOf="@+id/layout_answer">
+        <ImageView
+            android:background="@drawable/exsampe"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/tips_layout"
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/image_frame">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button_tips_tip1"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button_tips_tip2"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button_tips_tip3"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button_tips_all" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Андрій/Desktop/TryGit/TryGit/app/src/main/res/layout-xlarge-land/game.xml -->
