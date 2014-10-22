@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/settings_pushed" >
+    </item>
+    <item
+        android:drawable="@drawable/settings_focus"
+        android:state_focused="true" >
+    </item>
+    <item android:drawable="@drawable/settings" />
+</selector><!-- From: file:/C:/Users/Андрій/Google%20Диск/Work/google%20play/TryGit/TryGit/app/src/main/res/drawable-hdpi/selector_settings_main_button.xml -->

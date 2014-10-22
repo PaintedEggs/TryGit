@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_image">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="50">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:src="@drawable/social_logo_facebook"
+                android:id="@+id/FacebookButton"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:src="@drawable/social_logo_vk"
+                android:id="@+id/VKButton"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:src="@drawable/social_logo_google"
+                android:id="@+id/GoogleButton"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:src="@drawable/social_logo_twitter"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/FacebookButton"
+                android:id="@+id/TwitterButton"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!-- From: file:/C:/Users/Андрій/Google%20Диск/Work/google%20play/TryGit/TryGit/app/src/main/res/layout/follow_us_layout.xml -->

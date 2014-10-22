@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/tip_facebook_pushed" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/tip_facebook_focus" /> <!-- focused -->
+    <item android:drawable="@drawable/tip_facebook" /> <!-- default -->
+</selector><!-- From: file:/C:/Users/Андрій/Google%20Диск/Work/google%20play/TryGit/TryGit/app/src/main/res/drawable/facebook_tip.xml -->

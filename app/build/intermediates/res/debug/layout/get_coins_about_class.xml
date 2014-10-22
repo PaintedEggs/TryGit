@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bkf">
+    <TextView
+        android:id="@+id/get_coins_about_main_text"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/GetCoinsAboutClassText"
+        android:textSize="30dp"
+    />
+    <CheckBox
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/get_coins_about_check_show"
+        android:paddingBottom="20dp"
+        android:layout_above="@+id/get_coins_about_butons_layout"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/get_coins_about_dont_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/get_coins_about_check_show"
+        android:layout_above="@+id/get_coins_about_butons_layout"
+        android:text="@string/GetCoinsAboutClassDontShow"/>
+    <LinearLayout
+        android:id="@+id/get_coins_about_butons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/get_coins_about_button_close"
+            android:text="Close"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+        />
+        <Button
+            android:text="Ok"
+            android:id="@+id/get_coins_about_button_ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        </LinearLayout>
+
+
+
+</RelativeLayout><!-- From: file:/C:/Users/Андрій/Google%20Диск/Work/google%20play/TryGit/TryGit/app/src/main/res/layout/get_coins_about_class.xml -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/sound_off_pushed" >
+    </item>
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/sound_off" >
+    </item>
+    <item
+        android:drawable="@drawable/sound_off_focus"
+        android:state_focused="true" >
+    </item>
+    <item android:drawable="@drawable/sound_off" />
+</selector><!-- From: file:/C:/Users/Андрій/Google%20Диск/Work/google%20play/TryGit/TryGit/app/src/main/res/drawable-hdpi/selector_settings_sound_button_disabled.xml -->

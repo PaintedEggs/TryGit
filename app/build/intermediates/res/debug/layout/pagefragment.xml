@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/wallet_holo_blue_light"
+    android:weightSum="1"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_margin="@dimen/abc_action_bar_default_height"    >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/pagefragment_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/actors_category"/>
+        <Button
+            android:id="@+id/pagefragment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/flag"
+            android:enabled="false"
+            android:text=" 123"
+            android:textSize="32dp"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Андрій/Google%20Диск/Work/google%20play/TryGit/TryGit/app/src/main/res/layout/pagefragment.xml -->
